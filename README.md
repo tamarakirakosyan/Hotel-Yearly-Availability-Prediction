@@ -27,8 +27,9 @@ Column | Description
 - Spliting the dataset to train and test
 - Normalizing the features
 - Training the data with Logistic Regression, KNN, Random Forest, XGBoost, CATBoost and LightGBM
-- Selecting the best performing model and performing Randomized Search to find best parameters
-- Training the model with best hyperparameters
+- Selecting the best performing model.
+- Performing Randomized Search to find the best hyperparameters
+- Training the model with the best hyperparameters
 - Predicting yearly_availability for test.csv data and extracting the results to submissions.csv file.
 
 As a result we choose XGBoost model and get 93% accuracy predicting yearly availability.
